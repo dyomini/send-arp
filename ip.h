@@ -4,7 +4,7 @@
 #include <string>
 
 struct Ip final {
-	static const int SIZE = 4;
+	static const int Size = 4;
 
 	// constructor
 	Ip() {}

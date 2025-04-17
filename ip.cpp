@@ -4,7 +4,7 @@
 Ip::Ip(const std::string r) {
 	unsigned int a, b, c, d;
 	int res = sscanf(r.c_str(), "%u.%u.%u.%u", &a, &b, &c, &d);
-	if (res != SIZE) {
+	if (res != Size) {
 		fprintf(stderr, "Ip::Ip sscanf return %d r=%s\n", res, r.c_str());
 		return;
 	}
